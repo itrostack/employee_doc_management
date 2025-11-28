@@ -1,0 +1,26 @@
+[
+ {
+  "alert_before_expiry": 0,
+  "docstatus": 0,
+  "doctype": "Employee Document Type",
+  "modified": "2025-11-28 12:37:23.234700",
+  "name": "Passport",
+  "type": "Passport"
+ },
+ {
+  "alert_before_expiry": 1,
+  "docstatus": 0,
+  "doctype": "Employee Document Type",
+  "modified": "2025-11-28 12:39:24.480484",
+  "name": "Visa",
+  "type": "Visa"
+ },
+ {
+  "alert_before_expiry": 0,
+  "docstatus": 0,
+  "doctype": "Employee Document Type",
+  "modified": "2025-11-28 16:43:17.636935",
+  "name": "Driving Licence",
+  "type": "Driving Licence"
+ }
+]

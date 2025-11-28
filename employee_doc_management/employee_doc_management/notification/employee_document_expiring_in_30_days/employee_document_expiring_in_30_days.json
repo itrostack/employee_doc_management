@@ -1,0 +1,33 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.alert_before_expiry == 1 and doc.docstatus == 1",
+ "creation": "2025-11-28 15:59:57.615135",
+ "date_changed": "expiry_date",
+ "days_in_advance": 30,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Employee Document",
+ "enabled": 1,
+ "event": "Days Before",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<h3>Document Expiry Alert</h3>\n\n<p>Document {{ doc.document_type }} for {{ doc.employee}} Expiring in 30days Please take necessary action.</p>",
+ "message_type": "HTML",
+ "modified": "2025-11-28 16:06:51.082759",
+ "modified_by": "Administrator",
+ "module": "Employee Doc Management",
+ "name": "Employee Document Expiring in 30 Days",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "prefered_employee_email"
+  },
+  {
+   "receiver_by_role": "HR Manager"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "subject": "Document Expiry Alert: {{ doc.document_type }} going to expire for {{ doc.employee }} in 30 Days"
+}
